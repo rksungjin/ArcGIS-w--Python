@@ -5,8 +5,9 @@ outputString = "Aloha " + name + "!"
 print (outputString)
 
 #Pay Calculator
-hoursString = input("Enter hours:")
-hours = float(hoursString)
+# OR hoursString = input("Enter hours:")
+# OR hours = float(hoursString)
+hours = float(input("Enter hours: "))
 
 rateString = input("Enter rate:")
 rate = float(rateString)
@@ -14,3 +15,4 @@ rate = float(rateString)
 pay = hours * rate
 print("Pay:", pay)
 
+#
