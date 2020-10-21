@@ -1,3 +1,5 @@
 #Aloha Program
 name = input("What is your name?\n")
-print ("Aloha", name + "!")
+outputString = "Aloha " + name + "!"
+# OR print ("Aloha", name + "!")
+print (outputString)
