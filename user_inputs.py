@@ -9,8 +9,9 @@ print (outputString)
 # OR hours = float(hoursString)
 hours = float(input("Enter hours: "))
 
-rateString = input("Enter rate:")
-rate = float(rateString)
+# OR rateString = input("Enter rate:")
+# OR rate = float(rateString)
+rate = float(input("Enter rate: "))
 
 pay = hours * rate
 print("Pay:", pay)
