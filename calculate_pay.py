@@ -10,4 +10,4 @@ if hours <= 40:
 else:
     pay = 40 * rate + (hours - 40) * 1.5 * rate
 
-print("Pay: ", pay)
+print("Pay: ", pay) 
