@@ -1,6 +1,7 @@
 #Guessing Game
+import random
 
-target = 42
+target = random.randint(1,100)
 guesses = 7
 
 while guesses > 0:
