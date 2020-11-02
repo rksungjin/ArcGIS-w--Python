@@ -20,3 +20,7 @@ while guesses > 0:
     else: 
         print("You Win!")
         break
+if target == guess:
+    print("You Win!")
+else:
+    print("You Lose!")
