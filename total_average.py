@@ -16,6 +16,10 @@ while True:
         continue
     count = count + 1
     total = total + value
+    #if count == 1:
+        #smallest = value
+        #largest = value
+    #else : 
     if smallest == None or smallest > value : 
         smallest = value
     if largest == None or largest < value :
@@ -27,6 +31,8 @@ print("Average: ", total/count)
 
 if count == 0 :
     print("Average: 0")
+    #print("Largest: 0")
+    #print("Smallest: 0")
 else :
     print("Average: ", total/count)
 print("Largest: ", largest)
