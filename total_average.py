@@ -11,3 +11,10 @@ while True:
         value = int(valueString)
     except : 
         print("Invalid input")
+        continue
+    count = count + 1
+    total = total + value
+
+print("Total: ", total)
+print("Count: ", count)
+print("Average: ", total/count)
