@@ -18,3 +18,8 @@ while True:
 print("Total: ", total)
 print("Count: ", count)
 print("Average: ", total/count)
+
+if count == 0 :
+    print("Average: 0")
+else :
+    print("Average: ", total/count)
