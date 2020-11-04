@@ -22,4 +22,4 @@ except:
     exit(0)
 
 pay = calculatePay(rate, hours)
-print("Gross pay: ", pay)
+print("Gross pay: %.2f" % (pay))
