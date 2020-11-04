@@ -13,3 +13,6 @@ while True:
             print("Invalid age!")
             continue
     phone = input("Enter phone number: ")
+    outString = "%s,%d,%s\n" % (name, age, phone)
+    fileOut.write(outString)
+fileOut.close()
