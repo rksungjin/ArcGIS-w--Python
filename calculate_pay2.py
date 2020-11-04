@@ -22,4 +22,6 @@ except:
     exit(0)
 
 pay = calculatePay(rate, hours)
+#2 decimal places of accuracy
+#spaces/ field width then decimal place below
 print("Gross pay: %.2f" % (pay))
