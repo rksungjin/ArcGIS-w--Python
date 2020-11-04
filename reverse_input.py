@@ -7,5 +7,6 @@ newText = ""
 
 while index >= 0: 
     newText = newText + text[index]
+    index = index - 1
 
 print(newText)
