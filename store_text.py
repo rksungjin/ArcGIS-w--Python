@@ -15,6 +15,6 @@ print("The new file contains:")
 fIn = open("info.txt")
 
 for line in fIn:
-    print(line)
+    print(line, end="")
 
 fIn.close()
