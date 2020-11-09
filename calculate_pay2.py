@@ -31,6 +31,7 @@ while True:
     outString = "%s, %.1f,%.2f,%.2f\n" % (name, hours, rate, pay)
     fOut.write(outString)
     print(outString)
+fOut.close()
 #2 decimal places of accuracy
 #spaces/ field width then decimal place below
-    print("Gross pay: %.2f" % (pay))
+    #print("Gross pay: %.2f" % (pay))
