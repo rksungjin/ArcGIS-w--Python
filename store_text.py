@@ -1,4 +1,4 @@
-
+#Store text in file
 fOut = open("info.txt", "w")
 
 print("Enter some text, 'done' to stop:")
