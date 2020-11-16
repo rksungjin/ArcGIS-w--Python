@@ -15,4 +15,12 @@ for line in fIn:
 #print(wordList)
 wordList.sort()
 
+for i in range(len(wordList)):
+    smallest = wordList[i].lower()
+    for j in range(len(wordList) - i):
+        if wordList[i+j].lower() < smallest:
+            temp = wordList[i+j]
+            wordList[i+j] = wordList[i]
+            wordList[i] = temp
+            smallest=wordList[i]
 print(wordList)
