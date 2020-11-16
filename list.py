@@ -16,11 +16,13 @@ for line in fIn:
 wordList.sort()
 
 for i in range(len(wordList)):
-    smallest = wordList[i].lower()
+    smallest = i
+    #smallest = wordList[i].lower()
     for j in range(len(wordList) - i):
-        if wordList[i+j].lower() < smallest:
-            temp = wordList[i+j]
-            wordList[i+j] = wordList[i]
-            wordList[i] = temp
-            smallest=wordList[i]
+        if wordList[i+j].lower() < wordList[smallest].lower():
+            smallest = i+j
+        temp = wordList[i+j]
+        wordList[i+j] = wordList[i]
+        wordList[i] = temp
+        
 print(wordList)
