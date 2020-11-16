@@ -7,4 +7,5 @@ for c in text:
         letterCount[c] = 1
     else:
         letterCount[c] = letterCount[c] + 1
+    print(letterCount)
 print(letterCount)
