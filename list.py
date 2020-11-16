@@ -9,9 +9,10 @@ for line in fIn:
     words = line.split()
     #print(words)
     for word in words:
-        if word not in wordList:
-            wordList.append(word)
+        if word.lower() not in wordList:
+            wordList.append(word.lower())
 
+#print(wordList)
 wordList.sort()
 
 print(wordList)
