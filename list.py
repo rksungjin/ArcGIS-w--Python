@@ -9,3 +9,7 @@ for line in fIn:
     for word in words:
         if word not in wordList:
             wordList.append(word)
+
+wordList.sort()
+
+print(wordList)
